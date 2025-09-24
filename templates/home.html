@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        /* Center everything vertically and horizontally */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ABE2, #5563DE);
+            color: #fff;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        a {
+            text-decoration: none;
+            padding: 15px 30px;
+            background-color: #FF6B6B;
+            color: white;
+            font-size: 1.2em;
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        a:hover {
+            background-color: #FF4757;
+            transform: scale(1.05);
+        }
+
+        /* Footer text */
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 1em;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Flask Google OAuth</h1>
+    <a href="/login">Login with Google</a>
+
+    <div class="footer">
+        &copy; 2025 <strong>@TheCodingDhami</strong> | Flask Google OAuth
+    </div>
+</body>
+</html>
