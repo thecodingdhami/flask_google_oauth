@@ -114,4 +114,4 @@ If you’d like to improve this project, please fork the repo and submit a PR.
 
 ## 📜 License
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE.md) file for details.
